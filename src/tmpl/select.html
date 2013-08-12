@@ -1,0 +1,7 @@
+<label for="{{id}}">{{label}}</label>
+<select id="{{id}}" class="form-control">
+  {{#each choices}}
+  <option {{#if selected}}selected="selected"{{/if}} value="{{val}}">{{label}}</option>
+  {{/each}}
+</select>
+
